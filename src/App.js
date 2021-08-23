@@ -1,6 +1,6 @@
 import { HashRouter, Route, Link } from "react-router-dom";
 import './App.css';
-import About from './Components/About/About'
+import Skills from './Components/Skills/Skills.jsx'
 import Home from './Components/Home/Home'
 
 
@@ -10,13 +10,13 @@ function App() {
         <div>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li><Link to="/skills">Skills</Link></li>
           </ul>
 
           <hr />
   
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
         </div>
       </HashRouter>
   );

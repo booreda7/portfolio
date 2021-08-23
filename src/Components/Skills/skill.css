@@ -1,0 +1,63 @@
+.wik {
+  position: absolute;
+  width: 300px;
+  height: 71px;
+  left: 600px;
+  top: 100px;
+
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
+.skillsSection .line {
+  position: absolute;
+  width: 285px;
+  height: 0px;
+  left: 600px;
+  top: 190px;
+
+  border: 1px solid #ff0303;
+}
+.skills {
+  position: absolute;
+  width: 180.3px;
+  height: 55.33px;
+  left: 20.46px;
+  top: 602.03px;
+
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #000000;
+
+  transform: rotate(-90.78deg);
+}
+
+@media screen and (max-width: 1280px) {
+  .skills {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .wik {
+    left: 300px;
+  }
+  .line {
+    left: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wik {
+    left: 0px;
+  }
+  .line {
+    left: 0px;
+  }
+}
