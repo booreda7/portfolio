@@ -2,7 +2,7 @@ import {makeStyles} from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
     card:{
-        height:'300px',
+        height:'310px',
         width:'300px'
     },
     img:{
