@@ -49,7 +49,7 @@
   .wik {
     left: 300px;
   }
-  .line {
+  .skillsSection .line {
     left: 300px;
   }
 }
@@ -57,7 +57,7 @@
   .wik {
     left: 0px;
   }
-  .line {
+  .skillsSection .line {
     left: 0px;
   }
 }

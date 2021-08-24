@@ -1,0 +1,73 @@
+.header {
+  position: relative;
+  width: 600px;
+  height: 227px;
+  left: 83px;
+  top: 100px;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #000000;
+}
+.alt {
+  position: absolute;
+  width: 529px;
+  height: 61px;
+  left: 83px;
+  top: 500px;
+
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+.container {
+  position: relative;
+  top: -230px;
+  left: 250px;
+  width: 500px;
+}
+.icons {
+  margin-right: 20px;
+}
+.page {
+  height: 100vh;
+  width: 50vh;
+}
+.contactPage a {
+  color: #000000;
+}
+.contactPage .icons:hover {
+  color: red;
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    top: 320px;
+  }
+  .alt {
+    position: relative;
+    top: 300px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .contactPage .header {
+    left: 5px;
+  }
+  .alt {
+    left: 5px;
+  }
+  .container {
+    left: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contactPage .header {
+    width: 500px;
+  }
+}
