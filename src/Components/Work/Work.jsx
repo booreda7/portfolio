@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     card:{
-        height: '550px',
+        height: '480px',
         width: '420px',
     },
     cardHeader:{
