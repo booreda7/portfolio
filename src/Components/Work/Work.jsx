@@ -38,7 +38,7 @@ const Work = () => {
     const classes = useStyles();
 
     const works = [
-            {title:'Chat App', img:chat, text:'This is a chat app made with react chat engine, I used react, Js, html, css, axios and chat engine', demo:'https://booreda7.github.io/Chat-App/' , code:'https://github.com/booreda7/Chat-App'},
+            {title:'Chat App', img:chat, text:'This is a chat app made with react chat engine, I used react, Js, html, css, axios and chat engine. if you want to check it out, username and password are "123"', demo:'https://booreda7.github.io/Chat-App/' , code:'https://github.com/booreda7/Chat-App'},
             {title:'e-commerce app', img:ecom, text:'This is an e-commerce website, I used react, Js, html, css, material ui, stripe js, react router dom, react hook form and commerce js', demo:'https://booreda7.github.io/ecomv2/' , code:'https://github.com/booreda7/ecomv2'},
             {title:'voice assistent news app', img:news, text:'This is a voice assistant news app, I used react, Js, html, css, material ui, alan ai, classnames and words to numbers', demo:'https://booreda7.github.io/News-Alan-Ai/' , code:'https://github.com/booreda7/News-Alan-Ai'},
             {title:'covid tracker', img:covid, text:'This is an app that tracks covid cases around the world, I used react, Js, html, css, axios, react countup and react chart js', demo:'https://booreda7.github.io/Covid-19-Tracker/' , code:'https://github.com/booreda7/Covid-19-Tracker'},
